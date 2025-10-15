@@ -113,8 +113,8 @@ body {
     display: flex;
     flex-direction: row-reverse;
     margin: 8px;
-    justify-content: center;
-    gap: 280px;
+    justify-content: right;
+    /* gap: 280px; */
 }
 .controls {
     display: flex;

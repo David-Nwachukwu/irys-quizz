@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irys Quiz</title>
+    <link rel="stylesheet" href="intermediate-style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card" id="quiz-card">
+            <header class="card-header">
+                <h1>Intermediate Level 📚</h1>
+                <p class="sub">Intermediate, huh? Show us.</p>
+            </header>
+
+            <section id="quiz-area">
+                <div id="progress">Question <span id="qnum">1</span> / 20</div>
+                <div id="question" class="question">Loading...</div>
+                <div id="options" class="options">
+                    <!-- option buttons injected here -->
+                </div>
+
+            <div class="btn-container">
+                <div class="controls">
+                    <button id="next-btn" class="btn" disabled>Next</button>
+                </div>
+                <div class="controls2">
+                    <button id="menu-btn" class="btn" onclick="window.location.href='first-page-index.html'">Main Menu</button>
+                </div>
+            </div>   
+            </section>
+
+            <section id="score-area" class="hidden">
+                <div class="score-box">
+                    <h2>Your Score</h2>
+                    <p id="score-text">0 / 20</p>
+                </div>
+            </section>
+
+            <div class="elipsis-box">
+                <span id="typing-box"></span>
+                <span class="cursor"></span>
+            </div>
+
+
+            <p id="score-message"></p>
+
+            <footer class="card-footer">
+                Created by <a href="https://www.x.com/davidswrld_x" style="text-decoration: solid; color: black; font-size: 1rem;"><b>Damii (✧ᴗ✧)</b></a>
+            </footer>
+        </div>
+
+        <!-- 
+        <img src="Intellectual Sprite.png" alt="" class="irys1" width="60px">
+        <img src="Eyes Closed Sprite.png" alt="" class="irys2" width="60px">
+        <img src="Disguised Sprite.png" alt="" class="irys3" width="60px">
+        <img src="Magnifying Sprite.png" alt="" class="irys4" width="60px"> 
+        <img src="Champion Sprite.png" alt="" class="irys5" width="60px">-->
+    </main>
+
+    <script src="intermediate-script.js"></script>
+</body>
+</html>
